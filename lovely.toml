@@ -9,7 +9,7 @@ target = "engine/save_manager.lua"
 pattern = "save_string = love.data.compress('string', 'deflate', save_string, 1)"
 position = "at"
 payload = '''
-save_string = love.data.compress('string', 'deflate', save_string, 6)
+save_string = love.data.compress('string', 'deflate', save_string, Stopgap.config.compression_level)
 '''
 match_indent = true
 
