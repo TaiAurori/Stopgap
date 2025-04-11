@@ -1,17 +1,8 @@
---- STEAMODDED HEADER
-
---- MOD_NAME: Stopgap
---- MOD_ID: stopgap
---- MOD_AUTHOR: [TaiAurori]
---- MOD_DESCRIPTION: Employs some fancy tricks to make Cryptid saves smaller.
---- PREFIX: stopgap
---- VERSION: 1.0.1
---- LOADER_VERSION_GEQ: 1.0.0
-
 Stopgap = {
     config = SMODS.current_mod.config
 }
 
+--[[
 -- galdur
 G.FUNCS.cycle_options = function(args)
     args = args or {}
@@ -47,3 +38,4 @@ SMODS.current_mod.config_tab = function()
         }}
     }}
 end
+]]
