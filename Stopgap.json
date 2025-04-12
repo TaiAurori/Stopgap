@@ -5,8 +5,8 @@
 	"description": "Employs some fancy tricks to make Cryptid saves smaller.",
 	"prefix": "stopgap",
 	"main_file": "src/main.lua",
-	"priority": 0,
-	"version": "1.0.1",
+	"priority": 150,
+	"version": "1.1.0",
 	"dependencies": [
 		"Steamodded (>=1.*)",
 		"Cryptid (>=0.5.*)"

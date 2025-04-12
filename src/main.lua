@@ -32,12 +32,11 @@ SMODS.current_mod.config_tab = function()
             label = "Save Strip level",
             info = {
                 "The effort that Stopgap should put in to",
-                "reduce a save's size. This affects save time",
-                "more dramatically than the above option.",
+                "reduce a save's size.",
                 "",
                 "Restart to apply changes to these settings!"
             },
-            options = {"None", "Regular", "Deep"},
+            options = {"None", "Regular"},
             current_option = Stopgap.config.strip_level,
             w = 4.5,
             text_scale = 0.4,
