@@ -4,9 +4,9 @@ that most runs of these mods don't end because of the blind quota; rather, they
 end because the save files get *enormous* and LÖVE starts hard crashing upon
 attempting to save.
 
-This mod (soon) allows configuring the compression level that Balatro uses to
-save game data, and it also adds some "Fancy Tricks" to scrub redundant data
-that can be reproduced at load time.
+This mod allows configuring the compression level that Balatro uses tosave game 
+data, and it also adds some "Fancy Tricks" to scrub redundant data that can be 
+reproduced at load time.
 
 # How to install
 1. For the love of Godsmarble, **BACK UP YOUR SAVE.** This thing hasn't been
