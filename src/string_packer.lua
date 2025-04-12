@@ -116,8 +116,8 @@ end
     return ret_str
 end
 
-ability_packed = STOPGAP_STR_PACK(ability_defaults, true)
-keys_packed = STOPGAP_STR_PACK(ability_keys, true)
+ability_packed = VANILLA_STR_PACK(ability_defaults, true)
+keys_packed = VANILLA_STR_PACK(ability_keys, true)
 
 function STR_PACK(data, recursive)
 	local config = STR_UNPACK(get_compressed("config/stopgap.jkr")) or {}
