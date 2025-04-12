@@ -4,7 +4,7 @@
 	"author": ["TaiAurori"],
 	"description": "Employs some fancy tricks to make Cryptid saves smaller.",
 	"prefix": "stopgap",
-	"main_file": "Stopgap.lua",
+	"main_file": "src/main.lua",
 	"priority": 0,
 	"version": "1.0.1",
 	"dependencies": [
