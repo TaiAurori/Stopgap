@@ -45,7 +45,7 @@ local ability_packed = nil
 local keys_packed = nil
 
 function STOPGAP_STR_PACK(data, recursive, is_game, is_ability)
-	local ret_str = ""
+    local ret_str = ""
     if is_game == nil then
         is_game = data.GAME and not recursive
     end
@@ -120,7 +120,7 @@ ability_packed = VANILLA_STR_PACK(ability_defaults, true)
 keys_packed = VANILLA_STR_PACK(ability_keys, true)
 
 function STR_PACK(data, recursive)
-	local config = STR_UNPACK(get_compressed("config/stopgap.jkr")) or {}
+    local config = STR_UNPACK(get_compressed("config/stopgap.jkr") or "return {}")
     if not config["strip_level"] then
         config["strip_level"] = 2
     end
