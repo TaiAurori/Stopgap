@@ -20,7 +20,7 @@ SMODS.current_mod.config_tab = function()
                 "(Balatro's default is 1, Stopgap's is 9.)"
             },
             options = {1, 2, 3, 4, 5, 6, 7, 8, 9},
-            current_option = Stopgap.config.compression_level,
+            current_option = Stopgap.config.compression_level or 9,
             w = 4.5,
             text_scale = 0.4,
             ref_table = Stopgap.config,
@@ -37,7 +37,7 @@ SMODS.current_mod.config_tab = function()
                 "Restart to apply changes to these settings!"
             },
             options = {"None", "Regular"},
-            current_option = Stopgap.config.strip_level,
+            current_option = Stopgap.config.strip_level or 2,
             w = 4.5,
             text_scale = 0.4,
             ref_table = Stopgap.config,

@@ -121,9 +121,7 @@ keys_packed = VANILLA_STR_PACK(ability_keys, true)
 
 function STR_PACK(data, recursive)
     local config = STR_UNPACK(get_compressed("config/stopgap.jkr") or "return {}")
-    if not config["strip_level"] then
-        config["strip_level"] = 2
-    end
+    config["strip_level"] = config["strip_level"] or 2
 
     if config["strip_level"] >= 2 then
         return STOPGAP_STR_PACK(data, recursive, config, is_game)

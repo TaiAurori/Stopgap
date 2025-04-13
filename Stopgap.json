@@ -6,7 +6,7 @@
 	"prefix": "stopgap",
 	"main_file": "src/main.lua",
 	"priority": 150,
-	"version": "1.1.1",
+	"version": "1.1.1b",
 	"dependencies": [
 		"Steamodded (>=1.*)",
 		"Cryptid (>=0.5.*)"
